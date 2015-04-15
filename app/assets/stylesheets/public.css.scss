@@ -1,0 +1,67 @@
+// Place all the styles related to the public controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "font-awesome";
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|Open+Sans&subset=latin,latin-ext);
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	#header {
+		background-color: #2B2D35;
+		ul {
+			margin-top: 30px;
+  		font-size: 17px;
+		}
+		li {
+			margin-top: 30px;
+			color: #D8D8D7;
+		}
+		.fa {
+			color: #D8D8D7;
+			padding-left: 30px;
+		}
+	}
+
+	#client_data {
+		.content{
+			padding: 30px;
+			p {
+				color: #7E7E7D;
+				font-size: 34px;
+			}
+		}
+	}
+
+	#development {
+		background-color: #E9EAE9;
+		padding: 50px;
+		p {
+			font-size: 24px;
+			color: #70706F;
+		}
+		.fa {
+			font-size: 350px;
+		  color: white;
+		}
+		li {
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 18px;
+			color: #7E7E7D;
+		}
+	}
+
+	#price {
+		background-color: #FFFFFF;
+		padding: 50px;
+		#price_list {
+			margin-left: 77px;
+			background-color: #26272F;
+			color: white;
+			padding: 22px;
+			ul {
+				margin-top: 10px;
+				font-size: 51px;
+			}
+		}
+	}
+}
